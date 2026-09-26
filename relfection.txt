@@ -1,21 +1,39 @@
 Complexity Analysis
 
-
-
-
+Recursive Complexity is all about time and space Complexity of algorithm in which calls themselves within inputs
+in which is called recurrence relation in which solves any method by using recurison trees. Having these things are a huge 
+major improvement within Python since if can gives you the best ever than worse.
+There are huge recurrence relations and they are each o(n) within the 
+code. The reason why these complexities can make very sense after 
+getting the proper code structure since it make things easier by implementing a maximum call 
+stack depth. There are different types of common Complexity classes for recurison. There are up to 5
+in total. The one I'm doing in this assignment is mostly O(n) and O(2^n) since they have file 
+system traversal and Fibonacci respectively. What I see is that
+there are files that can detect any suspicious files that is either infected
+or not. It's also simliar to the count_employees in which 4 functions can call
+stacks almost simultaneously. Without using the proper code structures,
+I believe that the results will not be perfect. 
+There are different types of common Analysis classes for recursion. There are up to 5 or more. 
 
 
 Reflection 
 
 How many files were in the company’s file system? How many files were infected?
-
+I'm going to say up to 20 to 50 files within the company's file system were infected since I believe they were not managed properly and with no protection
+whatsoever. Having a infected files is a huge problem in which can risk getting fallen into the hackers hand or be lost forever. 
 
 Which department had the most infected files? What does this tell you about how the breach spread?
-
+I'm going to say Finance and HR have the most infected files in the program. This tells me that the breach spread can happen when the files are not
+properly protected and not spread to everywhere else. I believe that taking precautions on handling files in which can prevent any breaches in the files. 
 
 
 What made this problem naturally suited to recursion? (Think about the structure of file systems)
-
+The problem is caused by traversing a nested directory structure in which each folder subfolders and the same logic
+level. Most of the problem can be broken into smaller instances of the same problem and can be resolved one by one. Sovling a single problem Without
+spliting might to be too diffcult to solve it. I believe this is better.
 
 
 When would you choose iteration over recursion for a file system problem? Consider factors like directory depth limits, performance, and code readability.
+For me personally, I would chose iteration for a file system problem since I can used stack and/or
+quene in order to manage directories to visit them respectively. This can help with
+avoid deep recursion and prevent any more problems.
