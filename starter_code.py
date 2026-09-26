@@ -218,24 +218,28 @@ if __name__ == "__main__":
     print("Complete the functions above, then run this file to test your work.\n")
     
     ## 1. Uncomment to run tests for count_files functions
-    print("Total files (Test Case 1):", count_files("test_cases/case1_flat")) # 5
-    print("Total files (Test Case 2):", count_files("test_cases/case2_nested")) # 4
-    print("Total files (Test Case 3):", count_files("test_cases/case3_infected")) # 5
+    print("Total files (Test Case 1):", count_files("test_cases/case1_flat")) 
+    print("Total files (Test Case 2):", count_files("test_cases/case2_nested")) 
+    print("Total files (Test Case 3):", count_files("test_cases/case3_infected")) 
 
     ## 2. Uncomment to run count_files for breached files
     print("Total files (breeched files):", count_files("breach_data")) # ???
 
     ## 3. Uncomment to run tests for find_infected_files function
-    print("Total Infected Files (Test Case 1):", len(find_infected_files("test_cases/case1_flat"))) # 0
-    print("Total Infected Files (Test Case 1):", len(find_infected_files("test_cases/case2_nested"))) # 0
-    print("Total Infected Files (Test Case 3):", len(find_infected_files("test_cases/case3_infected"))) # 3
+    print("Total Infected Files (Test Case 1):", len(find_infected_files("test_cases/case1_flat")))
+    print("Total Infected Files (Test Case 1):", len(find_infected_files("test_cases/case2_nested"))) 
+    print("Total Infected Files (Test Case 3):", len(find_infected_files("test_cases/case3_infected"))) 
 
     ## 4. Uncomment to run find_infected breached files
-    print("Total Infected Files (breached files):", len(find_infected_files("breach_data"))) # ???
+    print("Total Infected Files (breached files):", len(find_infected_files("breach_data"))) 
 
     ## 5. Determine how many files were corrupted by department (Finance, HR, and Sales)
     
-    find_infected_files("Finance, HR, and sales");
+    print("Finance - Infected Files:", len(find_infected_files("breach_data/Finance")))
+    print("HR - Infected Files:", len(find_infected_files("breach_data/HR")))
+    print("Sales - Infected Files:", len(find_infected_files("breach_data/Sales")))
+    
+
 
     
     print("\n⚠ Uncomment the test functions in the main block to run tests!")

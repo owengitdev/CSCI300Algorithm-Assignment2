@@ -1,0 +1,21 @@
+Complexity Analysis
+
+
+
+
+
+
+Reflection 
+
+How many files were in the company’s file system? How many files were infected?
+
+
+Which department had the most infected files? What does this tell you about how the breach spread?
+
+
+
+What made this problem naturally suited to recursion? (Think about the structure of file systems)
+
+
+
+When would you choose iteration over recursion for a file system problem? Consider factors like directory depth limits, performance, and code readability.
